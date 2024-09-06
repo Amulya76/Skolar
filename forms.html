@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="submit">
+        <table>
+            <tr>
+                <td><label for="Fname">First Name:</label></td>
+                <td><input type="text" name="MyFname" id="Fname" placeholder="Enter your first name" required></td>
+            </tr>
+            <tr>
+                <td><label for="Lname">Last Name:</label></td>
+                <td><input type="text" name="MyLname" id="Lname" placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input type="email" name="MyEmail" id="Email" placeholder="you@example.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password:</label></td>
+                <td><input type="password" name="MyPassword" id="Password" placeholder="Create a password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password">Confirm Password:</label></td>
+                <td><input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="terms" name="terms" required></td>
+                <td><label for="terms">I agree to the <a href="/terms-and-conditions" target="_blank">terms and conditions</a></label></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
